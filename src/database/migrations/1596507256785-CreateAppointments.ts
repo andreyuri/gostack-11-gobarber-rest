@@ -1,5 +1,4 @@
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
-import { uuid } from 'uuidv4';
 
 export default class CreateAppointments1596507256785
   implements MigrationInterface {
