@@ -5,6 +5,7 @@ import {
   CreateDateColumn,
   JoinColumn,
   ManyToOne,
+  UpdateDateColumn,
 } from 'typeorm';
 
 import User from './User';
@@ -27,7 +28,7 @@ class Appointment {
   @CreateDateColumn()
   created_at: Date;
 
-  @CreateDateColumn()
+  @UpdateDateColumn()
   updated_at: Date;
 }
 
